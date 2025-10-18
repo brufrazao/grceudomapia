@@ -12,10 +12,9 @@ export default function Sobre() {
             <div className="flex items-center gap-3 cursor-pointer">
               <img src="/logo.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-16 w-16" />
               <div>
-                   <h3 className="font-bold text-white mb-3">Ginástica Rítmica - Céu do Mapiá</h3>
-              <p className="text-sm">
-                Núcleo de Esportes - Projeto AME (Apoio e Motivação Educacional)
-              </p>   </div>
+                <h1 className="text-2xl font-bold text-blue-900">Ginástica Rítmica -<br className="md:hidden" /> Céu do Mapiá</h1>
+                <p className="text-sm text-gray-600">Núcleo de Esportes do AME (Apoio e Motivação Educacional)</p>
+              </div>
             </div>
           </Link>
           <nav className="hidden md:flex gap-6">
