@@ -11,8 +11,8 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <img src="/logo.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-12 w-12" />
             <div>
-              <h1 className="text-xl font-bold text-blue-900">Ginástica Rítmica</h1>
-              <p className="text-sm text-blue-700">Céu do Mapiá</p>
+              <h1 className="text-lg font-bold text-blue-900">Escolinha de Ginástica Rítmica</h1>
+              <p className="text-sm text-blue-700">Céu do Mapiá - núcleo de esportes do AME</p>
             </div>
           </div>
           <nav className="hidden md:flex gap-6">
