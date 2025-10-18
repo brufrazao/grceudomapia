@@ -312,7 +312,7 @@ export default function Apoie() {
                         <td className="text-right py-3 px-4">4.545</td>
                       </tr>
                       <tr className="font-bold text-blue-900 bg-blue-100">
-                        <td className="py-3 px-4 text-lg">Total Estimado (1 ano)</td>
+                        <td className="py-3 px-4 text-lg">Total Estimado<br className="md:hidden" />(1 ano)</td>
                         <td className="text-right py-3 px-4 text-lg">50.000</td>
                       </tr>
                     </tbody>
