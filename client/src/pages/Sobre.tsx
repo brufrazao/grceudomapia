@@ -48,15 +48,15 @@ export default function Sobre() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-blue-900 mb-2">Local</h3>
-                    <p className="text-gray-700">Vila Céu do Mapiá (ecovila — legado do Padrinho Sebastião), Amazonas</p>
+                    <p className="text-gray-700">Vila Céu do Mapiá - Amazonas</p>
                   </div>
                   <div>
                     <h3 className="font-semibold text-blue-900 mb-2">Público-Alvo</h3>
-                    <p className="text-gray-700">Meninas de 7 a 12 anos (turma atual ≈13 alunas; meta: 25+)</p>
+                    <p className="text-gray-700">Meninas de 5 a 13 anos (turma atual ≈ 13 alunas; meta: 25+)</p>
                   </div>
                   <div>
                     <h3 className="font-semibold text-blue-900 mb-2">Cronograma</h3>
-                    <p className="text-gray-700">2 vezes por semana, 1h30 por aula, contraturno escolar</p>
+                    <p className="text-gray-700">A intenção é ampliar o projeto para até 4 aulas semanais para duas turmas (pré infantil e infantil), com duração de 50 a 90 minutos</p>
                   </div>
                   <div>
                     <h3 className="font-semibold text-blue-900 mb-2">Início</h3>
@@ -97,7 +97,7 @@ export default function Sobre() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-blue-900 mb-6">Sobre a Ginástica Rítmica</h2>
             <p className="text-lg text-gray-700 mb-6">
-              A ginástica rítmica é um esporte que combina dança, balé e elementos gimnásticos com a 
+              A ginástica rítmica é um esporte que combina dança, balé e elementos ginásticos com a 
               manipulação de aparelhos em coreografias musicais.
             </p>
             
@@ -111,14 +111,14 @@ export default function Sobre() {
                   <span className="px-4 py-2 bg-yellow-100 text-yellow-900 rounded-full font-medium">Arco</span>
                   <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full font-medium">Bola</span>
                   <span className="px-4 py-2 bg-yellow-100 text-yellow-900 rounded-full font-medium">Corda</span>
-                  <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full font-medium">Maças</span>
+                  <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full font-medium">Massas</span>
                 </div>
               </CardContent>
             </Card>
 
             <h3 className="text-2xl font-bold text-blue-900 mb-4">Características do Esporte</h3>
             <p className="text-gray-700 mb-6">
-              Exige flexibilidade, coordenação, equilíbrio, força de tronco, ritmo, expressão corporal e técnica.
+              Exige flexibilidade, coordenação, equilíbrio, força, ritmo, expressão corporal e técnica.
             </p>
 
             <h3 className="text-2xl font-bold text-blue-900 mb-4">Principais Benefícios para Crianças</h3>

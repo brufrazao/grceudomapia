@@ -32,12 +32,12 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="mb-6">
-                <img src="/logo.png" alt="Logo" className="h-32 w-32 mb-4" />
+                <img src="/logo.png" alt="Logo" className="h-24 w-24 mb-4" />
               </div>
-              <h2 className="text-5xl md:text-6xl font-bold text-blue-900 mb-6">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent mb-6">
                 Ginástica Rítmica
               </h2>
-              <h3 className="text-3xl md:text-4xl font-semibold text-blue-700 mb-6">
+              <h3 className="text-3xl md:text-4xl font-semibold bg-gradient-to-r from-purple-500 to-purple-700 bg-clip-text text-transparent mb-6">
                 Céu do Mapiá
               </h3>
               <p className="text-xl text-gray-700 mb-4">
@@ -48,12 +48,12 @@ export default function Home() {
               </p>
               <div className="flex gap-4">
                 <Link href="/apoie">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6">
+                  <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-lg px-8 py-6">
                     Apoie o Projeto
                   </Button>
                 </Link>
                 <Link href="/sobre">
-                  <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-blue-600 text-blue-600 hover:bg-blue-50">
+                  <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-purple-600 text-purple-600 hover:bg-purple-50">
                     Saiba Mais
                   </Button>
                 </Link>
@@ -77,7 +77,7 @@ export default function Home() {
             <h2 className="text-4xl font-bold text-blue-900 mb-8 text-center">Sobre a Ginástica Rítmica</h2>
             <div className="bg-gradient-to-r from-blue-50 to-yellow-50 p-8 rounded-lg mb-8">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                A ginástica rítmica é um esporte que combina dança, balé e elementos gimnásticos com a 
+                A ginástica rítmica é um esporte que combina dança, balé e elementos ginásticos com a 
                 manipulação de aparelhos em coreografias musicais.
               </p>
               
@@ -87,12 +87,12 @@ export default function Home() {
                 <span className="px-4 py-2 bg-yellow-100 text-yellow-900 rounded-full font-medium">Arco</span>
                 <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full font-medium">Bola</span>
                 <span className="px-4 py-2 bg-yellow-100 text-yellow-900 rounded-full font-medium">Corda</span>
-                <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full font-medium">Maças</span>
+                <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full font-medium">Massas</span>
               </div>
 
               <h3 className="text-2xl font-bold text-blue-900 mb-4">Características do Esporte</h3>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Exige flexibilidade, coordenação, equilíbrio, força de tronco, ritmo, expressão corporal e técnica.
+                Exige flexibilidade, coordenação, equilíbrio, força, ritmo, expressão corporal e técnica.
               </p>
             </div>
           </div>
@@ -198,10 +198,9 @@ export default function Home() {
             <h2 className="text-4xl font-bold text-blue-900 mb-8 text-center">Sobre o Projeto</h2>
             <div className="bg-gradient-to-r from-blue-50 to-yellow-50 p-8 rounded-lg mb-8">
               <p className="text-lg text-gray-700 leading-relaxed">
-                O projeto AME (Apoio Motivacional e Educacional) apresenta a Escolinha de Ginástica Rítmica 
-                da Vila Céu do Mapiá, iniciativa do núcleo AME sediado na ecovila criada pelo Padrinho Sebastião. 
-                A escolinha funciona no contraturno escolar e visa oferecer às crianças formação esportiva, 
-                social e educativa, reforçando valores e oportunidades.
+                A Escolinha de Ginástica Rítmica da Vila Céu do Mapiá é uma iniciativa do Núcleo de Esportes 
+                do Projeto AME (Apoio e Motivação Educacional). A escolinha funciona no contraturno escolar e 
+                visa oferecer às crianças formação esportiva, social e educativa, reforçando valores e oportunidades.
               </p>
             </div>
 
@@ -212,7 +211,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Meninas de 7 a 12 anos. Turma atual com aproximadamente 13 alunas, 
+                    Meninas de 5 a 13 anos. Turma atual com aproximadamente 13 alunas, 
                     com meta de expansão para 25+ ginastas.
                   </p>
                 </CardContent>
@@ -224,8 +223,8 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    2 vezes por semana, 1h30 por aula, no contraturno escolar. 
-                    Início das atividades em abril.
+                    A intenção é ampliar o projeto para até 4 aulas semanais para duas turmas 
+                    (pré infantil e infantil), com duração de 50 a 90 minutos.
                   </p>
                 </CardContent>
               </Card>
@@ -236,8 +235,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Vila Céu do Mapiá, ecovila no Amazonas que representa o legado 
-                    do Padrinho Sebastião.
+                    Vila Céu do Mapiá - Amazonas
                   </p>
                 </CardContent>
               </Card>
@@ -267,7 +265,7 @@ export default function Home() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+      <section className="py-16 bg-gradient-to-r from-blue-950 to-blue-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Faça Parte Dessa Transformação</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
