@@ -17,14 +17,14 @@ export default function Galeria() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <header className="border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
+      <header className="border-b bg-white sticky top-0 z-50 shadow-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/">
             <div className="flex items-center gap-3 cursor-pointer">
-              <img src="/logo.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-12 w-12" />
+              <img src="/logo.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-16 w-16" />
               <div>
-                <h1 className="text-lg font-bold text-blue-900">Escolinha de Ginástica Rítmica</h1>
-                <p className="text-sm text-blue-700">Céu do Mapiá - núcleo de esportes do AME</p>
+                <h1 className="text-2xl font-bold text-blue-900">Ginástica Rítmica - Céu do Mapiá</h1>
+                <p className="text-sm text-gray-600">Núcleo de Esportes do AME (Apoio e Motivação Educacional)</p>
               </div>
             </div>
           </Link>
@@ -38,7 +38,7 @@ export default function Galeria() {
       </header>
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-50 to-purple-50 py-12">
+      <section className="bg-gradient-to-br from-blue-100 via-yellow-50 to-blue-50 py-12">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-blue-900 mb-4">Galeria de Fotos</h1>
           <p className="text-xl text-gray-700">Momentos especiais da nossa escolinha</p>
@@ -66,7 +66,7 @@ export default function Galeria() {
       </section>
 
       {/* Descrição */}
-      <section className="py-16 bg-gradient-to-br from-purple-50 to-blue-50">
+      <section className="py-16 bg-gradient-to-br from-yellow-50 via-blue-50 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-blue-900 mb-6">Nossos Momentos</h2>

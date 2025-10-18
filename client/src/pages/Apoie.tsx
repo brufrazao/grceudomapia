@@ -6,14 +6,14 @@ export default function Apoie() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <header className="border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
+      <header className="border-b bg-white sticky top-0 z-50 shadow-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/">
-            <div className="flex items-center gap-3 cursor-pointer">
-              <img src="/logo.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-12 w-12" />
+            <div className="flex items-center gap-4 cursor-pointer">
+              <img src="/logo.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-16 w-16" />
               <div>
-                <h1 className="text-lg font-bold text-blue-900">Escolinha de Ginástica Rítmica</h1>
-                <p className="text-sm text-blue-700">Céu do Mapiá - núcleo de esportes do AME</p>
+                <h1 className="text-2xl font-bold text-blue-900">Ginástica Rítmica - Céu do Mapiá</h1>
+                <p className="text-sm text-gray-600">Núcleo de Esportes do AME (Apoio e Motivação Educacional)</p>
               </div>
             </div>
           </Link>
@@ -27,7 +27,7 @@ export default function Apoie() {
       </header>
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-50 to-purple-50 py-12">
+      <section className="bg-gradient-to-br from-blue-100 via-yellow-50 to-blue-50 py-12">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-blue-900 mb-4">Apoie o Projeto</h1>
           <p className="text-xl text-gray-700">Faça parte dessa transformação</p>
@@ -40,11 +40,11 @@ export default function Apoie() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-blue-900 mb-4">Objetivo Financeiro Anual</h2>
-              <div className="text-5xl font-bold text-purple-900 mb-2">R$ 50.000</div>
+              <div className="text-5xl font-bold text-blue-900 mb-2">R$ 50.000</div>
               <p className="text-xl text-gray-700">R$ 4.167 por mês</p>
             </div>
 
-            <Card className="mb-8">
+            <Card className="mb-8 border-2 border-yellow-300">
               <CardHeader>
                 <CardTitle className="text-blue-900">Para que serve o investimento?</CardTitle>
               </CardHeader>
@@ -59,19 +59,19 @@ export default function Apoie() {
                     <span>Aparelhos de ginástica rítmica (fita, arco, bola, corda, maças)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-purple-600 font-bold mt-1">•</span>
+                    <span className="text-yellow-600 font-bold mt-1">•</span>
                     <span>Vestuário e materiais de treino (sapatilhas, collants, shorts)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-pink-600 font-bold mt-1">•</span>
+                    <span className="text-blue-600 font-bold mt-1">•</span>
                     <span>Roupas de apresentação (figurinos)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-green-600 font-bold mt-1">•</span>
+                    <span className="text-yellow-600 font-bold mt-1">•</span>
                     <span>Equipamentos de treino (tapetes, joelheiras, caneleiras, elásticos)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-yellow-600 font-bold mt-1">•</span>
+                    <span className="text-blue-600 font-bold mt-1">•</span>
                     <span>Pró-labore da professora para garantir continuidade</span>
                   </li>
                 </ul>
@@ -82,11 +82,11 @@ export default function Apoie() {
       </section>
 
       {/* Planos de Patrocínio */}
-      <section className="py-16 bg-gradient-to-br from-purple-50 to-blue-50">
+      <section className="py-16 bg-gradient-to-br from-yellow-50 via-blue-50 to-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center">Planos de Patrocínio Mensal</h2>
-          <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            <Card className="border-2 border-blue-200 hover:border-blue-400 transition-colors">
+          <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12">
+            <Card className="border-2 border-blue-300 hover:border-blue-500 transition-all hover:shadow-lg">
               <CardHeader>
                 <CardTitle className="text-2xl text-blue-900">R$ 10</CardTitle>
                 <CardDescription>por mês</CardDescription>
@@ -103,9 +103,9 @@ export default function Apoie() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-purple-200 hover:border-purple-400 transition-colors">
+            <Card className="border-2 border-yellow-300 hover:border-yellow-500 transition-all hover:shadow-lg">
               <CardHeader>
-                <CardTitle className="text-2xl text-purple-900">R$ 15</CardTitle>
+                <CardTitle className="text-2xl text-blue-900">R$ 15</CardTitle>
                 <CardDescription>por mês</CardDescription>
               </CardHeader>
               <CardContent>
@@ -121,9 +121,9 @@ export default function Apoie() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-pink-200 hover:border-pink-400 transition-colors">
+            <Card className="border-2 border-blue-300 hover:border-blue-500 transition-all hover:shadow-lg">
               <CardHeader>
-                <CardTitle className="text-2xl text-pink-900">R$ 20</CardTitle>
+                <CardTitle className="text-2xl text-blue-900">R$ 20</CardTitle>
                 <CardDescription>por mês</CardDescription>
               </CardHeader>
               <CardContent>
@@ -140,9 +140,9 @@ export default function Apoie() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-green-200 hover:border-green-400 transition-colors">
+            <Card className="border-2 border-yellow-300 hover:border-yellow-500 transition-all hover:shadow-lg">
               <CardHeader>
-                <CardTitle className="text-2xl text-green-900">R$ 30+</CardTitle>
+                <CardTitle className="text-2xl text-blue-900">R$ 30+</CardTitle>
                 <CardDescription>por mês</CardDescription>
               </CardHeader>
               <CardContent>
@@ -161,9 +161,19 @@ export default function Apoie() {
             </Card>
           </div>
 
-          <div className="text-center mt-8">
-            <p className="text-gray-700 mb-2">
+          <div className="text-center">
+            <p className="text-gray-700 mb-6">
               <strong>Meta prática:</strong> 200 apoiadores a R$20/mês = R$4.000/mês (~R$48.000/ano)
+            </p>
+            <div className="flex gap-4 justify-center flex-wrap">
+              <a href="https://wa.me/5521995071990?text=Olá! Gostaria de fazer uma doação recorrente mensal para o Projeto Ginástica Rítmica Céu do Mapiá. Qual plano de patrocínio posso escolher?" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-green-600 hover:bg-green-700 text-lg px-8 py-6">
+                  💚 Configurar Doação Recorrente via WhatsApp
+                </Button>
+              </a>
+            </div>
+            <p className="text-sm text-gray-600 mt-4">
+              Entre em contato pelo WhatsApp para configurar sua doação mensal automática
             </p>
           </div>
         </div>
@@ -175,7 +185,7 @@ export default function Apoie() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center">Contrapartidas para Apoiadores</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Card>
+              <Card className="border-2 border-blue-300">
                 <CardHeader>
                   <CardTitle className="text-blue-900">Visibilidade</CardTitle>
                 </CardHeader>
@@ -187,9 +197,9 @@ export default function Apoie() {
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="border-2 border-yellow-300">
                 <CardHeader>
-                  <CardTitle className="text-purple-900">Acompanhamento</CardTitle>
+                  <CardTitle className="text-blue-900">Acompanhamento</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700">
@@ -199,9 +209,9 @@ export default function Apoie() {
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="border-2 border-blue-300">
                 <CardHeader>
-                  <CardTitle className="text-pink-900">Eventos</CardTitle>
+                  <CardTitle className="text-blue-900">Eventos</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700">
@@ -210,9 +220,9 @@ export default function Apoie() {
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="border-2 border-yellow-300">
                 <CardHeader>
-                  <CardTitle className="text-green-900">Transparência</CardTitle>
+                  <CardTitle className="text-blue-900">Transparência</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700">
@@ -226,16 +236,16 @@ export default function Apoie() {
       </section>
 
       {/* Orçamento Detalhado */}
-      <section className="py-16 bg-gradient-to-br from-blue-50 to-purple-50">
+      <section className="py-16 bg-gradient-to-br from-blue-50 via-yellow-50 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center">Orçamento Detalhado (12 meses)</h2>
-            <Card>
+            <Card className="border-2 border-blue-300">
               <CardContent className="pt-6">
                 <div className="overflow-x-auto">
                   <table className="w-full">
                     <thead>
-                      <tr className="border-b">
+                      <tr className="border-b-2 border-blue-200">
                         <th className="text-left py-3 px-4 text-blue-900">Item</th>
                         <th className="text-right py-3 px-4 text-blue-900">Valor (R$)</th>
                       </tr>
@@ -293,15 +303,15 @@ export default function Apoie() {
                         <td className="py-3 px-4">Pró-labore professora (R$1.500/mês x 12)</td>
                         <td className="text-right py-3 px-4">18.000</td>
                       </tr>
-                      <tr className="border-b font-semibold">
+                      <tr className="border-b font-semibold bg-blue-50">
                         <td className="py-3 px-4">Subtotal</td>
                         <td className="text-right py-3 px-4">27.450</td>
                       </tr>
-                      <tr className="border-b">
+                      <tr className="border-b bg-yellow-50">
                         <td className="py-3 px-4">Contingência (10%)</td>
                         <td className="text-right py-3 px-4">4.545</td>
                       </tr>
-                      <tr className="font-bold text-blue-900">
+                      <tr className="font-bold text-blue-900 bg-blue-100">
                         <td className="py-3 px-4 text-lg">Total Estimado (1 ano)</td>
                         <td className="text-right py-3 px-4 text-lg">50.000</td>
                       </tr>
@@ -324,7 +334,7 @@ export default function Apoie() {
               e fazer a diferença na vida das crianças da Vila Céu do Mapiá.
             </p>
             
-            <Card>
+            <Card className="border-2 border-yellow-300">
               <CardHeader>
                 <CardTitle className="text-blue-900">Contato</CardTitle>
               </CardHeader>
@@ -343,9 +353,14 @@ export default function Apoie() {
                     </a>
                   </div>
                 </div>
-                <div className="mt-6">
-                  <a href="https://wa.me/5521995071990?text=Olá! Gostaria de saber mais sobre como apoiar o Projeto AME - Ginástica Rítmica Céu do Mapiá" target="_blank" rel="noopener noreferrer">
-                    <Button className="w-full bg-green-600 hover:bg-green-700">
+                <div className="mt-6 space-y-3">
+                  <a href="https://wa.me/5521995071990?text=Olá! Gostaria de configurar uma doação recorrente mensal para o Projeto Ginástica Rítmica Céu do Mapiá" target="_blank" rel="noopener noreferrer">
+                    <Button className="w-full bg-green-600 hover:bg-green-700 text-lg py-6">
+                      💚 Configurar Doação Recorrente
+                    </Button>
+                  </a>
+                  <a href="https://wa.me/5521995071990?text=Olá! Gostaria de saber mais sobre como apoiar o Projeto Ginástica Rítmica Céu do Mapiá" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" className="w-full border-blue-600 text-blue-600 hover:bg-blue-50 text-lg py-6">
                       Falar no WhatsApp
                     </Button>
                   </a>
@@ -357,7 +372,7 @@ export default function Apoie() {
       </section>
 
       {/* Agradecimentos */}
-      <section className="py-16 bg-gradient-to-br from-purple-50 to-blue-50">
+      <section className="py-16 bg-gradient-to-br from-yellow-50 via-blue-50 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-blue-900 mb-6">Agradecimentos</h2>
@@ -374,9 +389,9 @@ export default function Apoie() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="font-bold text-white mb-3">Projeto AME</h3>
+              <h3 className="font-bold text-white mb-3">Ginástica Rítmica - Céu do Mapiá</h3>
               <p className="text-sm">
-                Escolinha de Ginástica Rítmica da Vila Céu do Mapiá
+                Núcleo de Esportes do AME (Apoio e Motivação Educacional)
               </p>
             </div>
             <div>
@@ -395,7 +410,7 @@ export default function Apoie() {
             </div>
           </div>
           <div className="border-t border-gray-700 pt-6 text-center text-sm">
-            <p>&copy; 2024 Projeto AME - Ginástica Rítmica Céu do Mapiá. Todos os direitos reservados.</p>
+            <p>&copy; 2024 Ginástica Rítmica Céu do Mapiá - Núcleo de Esportes do AME. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>

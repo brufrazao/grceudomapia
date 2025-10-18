@@ -6,14 +6,14 @@ export default function Sobre() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <header className="border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
+      <header className="border-b bg-white sticky top-0 z-50 shadow-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/">
             <div className="flex items-center gap-3 cursor-pointer">
-              <img src="/logo.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-12 w-12" />
+              <img src="/logo.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-16 w-16" />
               <div>
-                <h1 className="text-lg font-bold text-blue-900">Escolinha de Ginástica Rítmica</h1>
-                <p className="text-sm text-blue-700">Céu do Mapiá - núcleo de esportes do AME</p>
+                <h1 className="text-2xl font-bold text-blue-900">Ginástica Rítmica - Céu do Mapiá</h1>
+                <p className="text-sm text-gray-600">Núcleo de Esportes do AME (Apoio e Motivação Educacional)</p>
               </div>
             </div>
           </Link>
@@ -27,7 +27,7 @@ export default function Sobre() {
       </header>
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-50 to-purple-50 py-12">
+      <section className="bg-gradient-to-br from-blue-100 via-yellow-50 to-blue-50 py-12">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-blue-900 mb-4">Sobre o Projeto</h1>
           <p className="text-xl text-gray-700">Conheça a Escolinha de Ginástica Rítmica Céu do Mapiá</p>
@@ -74,7 +74,7 @@ export default function Sobre() {
       </section>
 
       {/* Justificativa Social */}
-      <section className="py-16 bg-gradient-to-br from-purple-50 to-blue-50">
+      <section className="py-16 bg-gradient-to-br from-yellow-50 via-blue-50 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-blue-900 mb-6">Justificativa Social</h2>
@@ -103,15 +103,15 @@ export default function Sobre() {
             
             <Card className="mb-8">
               <CardHeader>
-                <CardTitle className="text-purple-900">Aparelhos Oficiais</CardTitle>
+                <CardTitle className="text-blue-900">Aparelhos Oficiais</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-3">
-                  <span className="px-4 py-2 bg-purple-100 text-purple-900 rounded-full">Fita</span>
-                  <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full">Arco</span>
-                  <span className="px-4 py-2 bg-pink-100 text-pink-900 rounded-full">Bola</span>
-                  <span className="px-4 py-2 bg-green-100 text-green-900 rounded-full">Corda</span>
-                  <span className="px-4 py-2 bg-yellow-100 text-yellow-900 rounded-full">Maças</span>
+                  <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full font-medium">Fita</span>
+                  <span className="px-4 py-2 bg-yellow-100 text-yellow-900 rounded-full font-medium">Arco</span>
+                  <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full font-medium">Bola</span>
+                  <span className="px-4 py-2 bg-yellow-100 text-yellow-900 rounded-full font-medium">Corda</span>
+                  <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full font-medium">Maças</span>
                 </div>
               </CardContent>
             </Card>
@@ -256,14 +256,14 @@ export default function Sobre() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ajude a Transformar Vidas</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Sua contribuição faz a diferença na vida das crianças da Vila Céu do Mapiá
           </p>
           <Link href="/apoie">
-            <Button size="lg" variant="secondary" className="bg-white text-blue-900 hover:bg-gray-100">
+            <Button size="lg" className="bg-yellow-400 text-blue-900 hover:bg-yellow-500 font-bold">
               Apoie o Projeto
             </Button>
           </Link>
