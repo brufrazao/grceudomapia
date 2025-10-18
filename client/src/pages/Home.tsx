@@ -34,10 +34,10 @@ export default function Home() {
               <div className="mb-6">
                 <img src="/logo.png" alt="Logo" className="h-24 w-24 mb-4" />
               </div>
-              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-sky-500 to-blue-500 bg-clip-text text-transparent mb-6">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent mb-6">
                 Ginástica Rítmica
               </h2>
-              <h3 className="text-3xl md:text-4xl font-semibold bg-gradient-to-r from-sky-400 to-blue-400 bg-clip-text text-transparent mb-6">
+              <h3 className="text-3xl md:text-4xl font-semibold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-6">
                 Céu do Mapiá
               </h3>
               <p className="text-xl text-gray-700 mb-4">
@@ -48,12 +48,12 @@ export default function Home() {
               </p>
               <div className="flex gap-4">
                 <Link href="/apoie">
-                  <Button size="lg" className="bg-sky-500 hover:bg-sky-600 text-lg px-8 py-6">
+                  <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-lg px-8 py-6">
                     Apoie o Projeto
                   </Button>
                 </Link>
                 <Link href="/sobre">
-                  <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-sky-500 text-sky-600 hover:bg-sky-50">
+                  <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-cyan-500 text-cyan-600 hover:bg-cyan-50">
                     Saiba Mais
                   </Button>
                 </Link>
@@ -294,7 +294,7 @@ export default function Home() {
             <div>
               <h3 className="font-bold text-white mb-3">Ginástica Rítmica - Céu do Mapiá</h3>
               <p className="text-sm">
-                Núcleo de Esportes do AME (Apoio e Motivação Educacional)
+                Núcleo de Esportes - Projeto AME (Apoio e Motivação Educacional)
               </p>
             </div>
             <div>
@@ -313,7 +313,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-700 pt-6 text-center text-sm">
-            <p>&copy; 2024 Ginástica Rítmica Céu do Mapiá - Núcleo de Esportes do AME. Todos os direitos reservados.</p>
+            <p>&copy; 2024 Ginástica Rítmica Céu do Mapiá - Núcleo de Esportes - Projeto AME. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>

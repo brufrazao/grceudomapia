@@ -391,7 +391,7 @@ export default function Apoie() {
             <div>
               <h3 className="font-bold text-white mb-3">Ginástica Rítmica - Céu do Mapiá</h3>
               <p className="text-sm">
-                Núcleo de Esportes do AME (Apoio e Motivação Educacional)
+                Núcleo de Esportes - Projeto AME (Apoio e Motivação Educacional)
               </p>
             </div>
             <div>
@@ -410,7 +410,7 @@ export default function Apoie() {
             </div>
           </div>
           <div className="border-t border-gray-700 pt-6 text-center text-sm">
-            <p>&copy; 2024 Ginástica Rítmica Céu do Mapiá - Núcleo de Esportes do AME. Todos os direitos reservados.</p>
+            <p>&copy; 2024 Ginástica Rítmica Céu do Mapiá - Núcleo de Esportes - Projeto AME. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>

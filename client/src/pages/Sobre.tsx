@@ -12,9 +12,10 @@ export default function Sobre() {
             <div className="flex items-center gap-3 cursor-pointer">
               <img src="/logo.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-16 w-16" />
               <div>
-                <h1 className="text-2xl font-bold text-blue-900">Ginástica Rítmica - Céu do Mapiá</h1>
-                <p className="text-sm text-gray-600">Núcleo de Esportes do AME (Apoio e Motivação Educacional)</p>
-              </div>
+                   <h3 className="font-bold text-white mb-3">Ginástica Rítmica - Céu do Mapiá</h3>
+              <p className="text-sm">
+                Núcleo de Esportes - Projeto AME (Apoio e Motivação Educacional)
+              </p>   </div>
             </div>
           </Link>
           <nav className="hidden md:flex gap-6">
@@ -296,7 +297,7 @@ export default function Sobre() {
             </div>
           </div>
           <div className="border-t border-gray-700 pt-6 text-center text-sm">
-            <p>&copy; 2024 Projeto AME - Ginástica Rítmica Céu do Mapiá. Todos os direitos reservados.</p>
+            <p>&copy; 2024 Ginástica Rítmica Céu do Mapiá - Núcleo de Esportes - Projeto AME. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>

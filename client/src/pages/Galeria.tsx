@@ -23,9 +23,10 @@ export default function Galeria() {
             <div className="flex items-center gap-3 cursor-pointer">
               <img src="/logo.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-16 w-16" />
               <div>
-                <h1 className="text-2xl font-bold text-blue-900">Ginástica Rítmica - Céu do Mapiá</h1>
-                <p className="text-sm text-gray-600">Núcleo de Esportes do AME (Apoio e Motivação Educacional)</p>
-              </div>
+                <h3 className="font-bold text-white mb-3">Ginástica Rítmica - Céu do Mapiá</h3>
+              <p className="text-sm">
+                Núcleo de Esportes - Projeto AME (Apoio e Motivação Educacional)
+              </p>      </div>
             </div>
           </Link>
           <nav className="hidden md:flex gap-6">
@@ -69,10 +70,12 @@ export default function Galeria() {
       <section className="py-16 bg-gradient-to-br from-yellow-50 via-blue-50 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-blue-900 mb-6">Reforçando os Laços de Amizade</h2>
+            <h2 className="text-3xl font-bold text-blue-900 mb-6">
+              Reforçando os<br />Laços de Amizade
+            </h2>
             <p className="text-lg text-gray-700 mb-4">
-              Cada foto conta uma história de dedicação, aprendizado e alegria. As crianças da 
-              Vila Céu do Mapiá têm a oportunidade de desenvolver suas habilidades na ginástica 
+              Cada foto conta uma história de dedicação, aprendizado e alegria.<br />
+              As crianças da Vila Céu do Mapiá têm a oportunidade de desenvolver suas habilidades na ginástica 
               rítmica, criando laços de amizade e descobrindo seu potencial.
             </p>
             <p className="text-lg text-gray-700">
@@ -109,7 +112,7 @@ export default function Galeria() {
             </div>
           </div>
           <div className="border-t border-gray-700 pt-6 text-center text-sm">
-            <p>&copy; 2024 Projeto AME - Ginástica Rítmica Céu do Mapiá. Todos os direitos reservados.</p>
+            <p>&copy; 2024 Ginástica Rítmica Céu do Mapiá - Núcleo de Esportes - Projeto AME. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
