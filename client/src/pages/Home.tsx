@@ -34,10 +34,10 @@ export default function Home() {
               <div className="mb-6">
                 <img src="/logo.png" alt="Logo" className="h-24 w-24 mb-4" />
               </div>
-              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent mb-6">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-sky-500 to-blue-500 bg-clip-text text-transparent mb-6">
                 Ginástica Rítmica
               </h2>
-              <h3 className="text-3xl md:text-4xl font-semibold bg-gradient-to-r from-purple-500 to-purple-700 bg-clip-text text-transparent mb-6">
+              <h3 className="text-3xl md:text-4xl font-semibold bg-gradient-to-r from-sky-400 to-blue-400 bg-clip-text text-transparent mb-6">
                 Céu do Mapiá
               </h3>
               <p className="text-xl text-gray-700 mb-4">
@@ -48,12 +48,12 @@ export default function Home() {
               </p>
               <div className="flex gap-4">
                 <Link href="/apoie">
-                  <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-lg px-8 py-6">
+                  <Button size="lg" className="bg-sky-500 hover:bg-sky-600 text-lg px-8 py-6">
                     Apoie o Projeto
                   </Button>
                 </Link>
                 <Link href="/sobre">
-                  <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-purple-600 text-purple-600 hover:bg-purple-50">
+                  <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-sky-500 text-sky-600 hover:bg-sky-50">
                     Saiba Mais
                   </Button>
                 </Link>
