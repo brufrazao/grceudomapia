@@ -27,7 +27,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-100 via-yellow-50 to-blue-50 py-20">
+      <section className="relative bg-gradient-to-br from-blue-100 via-violet-50 to-yellow-50 py-20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -65,7 +65,7 @@ export default function Home() {
               <img 
                 src="/foto3.jpeg" 
                 alt="Turma de ginástica rítmica" 
-                className="rounded-lg shadow-2xl w-full border-4 border-yellow-400"
+                className="rounded-lg shadow-2xl w-full border-4 border-violet-200"
               />
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-blue-900 mb-8 text-center">Sobre a<br className="md:hidden" /> Ginástica Rítmica</h2>
-            <div className="bg-gradient-to-r from-blue-50 to-yellow-50 p-8 rounded-lg mb-8">
+            <div className="bg-gradient-to-r from-violet-50 via-blue-50 to-yellow-50 p-8 rounded-lg mb-8 border-2 border-violet-100">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 A ginástica rítmica é um esporte que combina dança, balé e elementos ginásticos com a 
                 manipulação de aparelhos em coreografias musicais.
@@ -120,12 +120,12 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-yellow-200 hover:border-yellow-400 transition-all hover:shadow-lg">
+            <Card className="border-2 border-violet-200 hover:border-violet-300 transition-all hover:shadow-lg">
               <CardHeader>
-                <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-violet-50 rounded-full flex items-center justify-center mb-4">
                   <span className="text-3xl">🧘</span>
                 </div>
-                <CardTitle className="text-blue-900">Postura e Flexibilidade</CardTitle>
+                <CardTitle className="text-violet-700">Postura e Flexibilidade</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
@@ -148,12 +148,12 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-yellow-200 hover:border-yellow-400 transition-all hover:shadow-lg">
+            <Card className="border-2 border-violet-200 hover:border-violet-300 transition-all hover:shadow-lg">
               <CardHeader>
-                <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-violet-50 rounded-full flex items-center justify-center mb-4">
                   <span className="text-3xl">🎨</span>
                 </div>
-                <CardTitle className="text-blue-900">Criatividade</CardTitle>
+                <CardTitle className="text-violet-700">Criatividade</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
@@ -198,7 +198,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-blue-900 mb-8 text-center">Sobre o Projeto</h2>
-            <div className="bg-gradient-to-r from-blue-50 to-yellow-50 p-8 rounded-lg mb-8">
+            <div className="bg-gradient-to-r from-violet-50 via-blue-50 to-yellow-50 p-8 rounded-lg mb-8 border-2 border-violet-100">
               <p className="text-lg text-gray-700 leading-relaxed">
                 A Escolinha de Ginástica Rítmica da Vila Céu do Mapiá é uma iniciativa do Núcleo de Esportes 
                 do Projeto AME (Apoio e Motivação Educacional).<br />
