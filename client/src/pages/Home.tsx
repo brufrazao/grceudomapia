@@ -61,7 +61,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <img 
-                src="/foto1.jpeg" 
+                src="/foto3.jpeg" 
                 alt="Turma de ginástica rítmica" 
                 className="rounded-lg shadow-2xl w-full border-4 border-yellow-400"
               />

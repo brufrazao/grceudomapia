@@ -69,15 +69,15 @@ export default function Galeria() {
       <section className="py-16 bg-gradient-to-br from-yellow-50 via-blue-50 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-blue-900 mb-6">Nossos Momentos</h2>
+            <h2 className="text-3xl font-bold text-blue-900 mb-6">Reforçando os Laços de Amizade</h2>
             <p className="text-lg text-gray-700 mb-4">
               Cada foto conta uma história de dedicação, aprendizado e alegria. As crianças da 
               Vila Céu do Mapiá têm a oportunidade de desenvolver suas habilidades na ginástica 
               rítmica, criando laços de amizade e descobrindo seu potencial.
             </p>
             <p className="text-lg text-gray-700">
-              As apresentações e treinos acontecem em espaços da comunidade, sempre com muito 
-              carinho e dedicação da professora e das alunas.
+              As apresentações e treinos acontecem em espaços da comunidade, contando com apoio 
+              das famílias da comunidade e dedicação dos alunos.
             </p>
           </div>
         </div>
