@@ -60,11 +60,11 @@ export default function Sobre() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-blue-900 mb-2">Início</h3>
-                    <p className="text-gray-700">Abril de 2024</p>
+                    <p className="text-gray-700">Abril de 2025</p>
                   </div>
                   <div>
                     <h3 className="font-semibold text-blue-900 mb-2">Proponente/Responsável</h3>
-                    <p className="text-gray-700">Núcleo AME</p>
+                    <p className="text-gray-700">Núcleo de Esportes do AME</p>
                   </div>
                 </div>
               </CardContent>
@@ -84,8 +84,8 @@ export default function Sobre() {
             </p>
             <p className="text-lg text-gray-700">
               Hoje a professora atua voluntariamente e usa recursos próprios; as famílias não têm condições 
-              de arcar com todos os custos. O apoio financeiro é essencial para profissionalizar o projeto 
-              e ampliar o alcance.
+              de arcar com todos os custos. O apoio financeiro é essencial para profissionalizar, 
+              garantir a continuidade do projeto e ampliar o alcance.
             </p>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function Sobre() {
                   <span className="px-4 py-2 bg-yellow-100 text-yellow-900 rounded-full font-medium">Arco</span>
                   <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full font-medium">Bola</span>
                   <span className="px-4 py-2 bg-yellow-100 text-yellow-900 rounded-full font-medium">Corda</span>
-                  <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full font-medium">Massas</span>
+                  <span className="px-4 py-2 bg-blue-100 text-blue-900 rounded-full font-medium">Maças</span>
                 </div>
               </CardContent>
             </Card>
@@ -179,7 +179,7 @@ export default function Sobre() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700">
-                    Melhora marcante na disciplina, frequência e comportamento
+                    Melhora na disciplina, frequência e comportamento
                   </p>
                 </CardContent>
               </Card>
@@ -235,10 +235,7 @@ export default function Sobre() {
                 <span className="text-pink-600 font-bold mt-1">•</span>
                 <span>Campanhas pontuais de arrecadação</span>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-green-600 font-bold mt-1">•</span>
-                <span>Formação de monitores locais para multiplicar o trabalho</span>
-              </li>
+
             </ul>
 
             <Card>
