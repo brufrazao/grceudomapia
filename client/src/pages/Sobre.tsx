@@ -84,8 +84,8 @@ export default function Sobre() {
             </p>
             <p className="text-lg text-gray-700">
               Hoje a professora atua voluntariamente e usa recursos próprios; as famílias não têm condições 
-              de arcar com todos os custos. O apoio financeiro é essencial para profissionalizar, 
-              garantir a continuidade do projeto e ampliar o alcance.
+              de arcar com todos os custos. O apoio financeiro é essencial para garantir a continuidade 
+              do projeto e ampliar o alcance.
             </p>
           </div>
         </div>
