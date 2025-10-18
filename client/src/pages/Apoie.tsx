@@ -10,7 +10,7 @@ export default function Apoie() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/">
             <div className="flex items-center gap-4 cursor-pointer">
-              <img src="/logo-v2.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-16 w-16" />
+              <img src="/logo-circle-transparent.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-16 w-16" />
               <div>
                 <h1 className="text-2xl font-bold text-blue-900">Ginástica Rítmica -<br className="md:hidden" /> Céu do Mapiá</h1>
                 <p className="text-sm text-gray-600">Núcleo de Esportes do AME (Apoio e Motivação Educacional)</p>
