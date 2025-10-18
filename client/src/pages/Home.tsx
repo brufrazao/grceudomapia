@@ -34,17 +34,19 @@ export default function Home() {
               <div className="mb-6">
                 <img src="/logo.png" alt="Logo" className="h-24 w-24 mb-4" />
               </div>
-              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent mb-6">
+              <h2 className="text-5xl md:text-6xl font-bold text-cyan-500 mb-6">
                 Ginástica Rítmica
               </h2>
-              <h3 className="text-3xl md:text-4xl font-semibold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-6">
+              <h3 className="text-3xl md:text-4xl font-semibold text-cyan-500 mb-6">
                 Céu do Mapiá
               </h3>
               <p className="text-xl text-gray-700 mb-4">
-                Escolinha de Ginástica Rítmica da Vila Céu do Mapiá
+                Escolinha de Ginástica Rítmica<br className="md:hidden" />
+                da Vila Céu do Mapiá
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Núcleo de Esportes do AME • Apoio Motivacional e Educacional
+                Núcleo de Esportes do AME<br className="md:hidden" />
+                Apoio e Motivação Educacional
               </p>
               <div className="flex gap-4">
                 <Link href="/apoie">
@@ -199,8 +201,9 @@ export default function Home() {
             <div className="bg-gradient-to-r from-blue-50 to-yellow-50 p-8 rounded-lg mb-8">
               <p className="text-lg text-gray-700 leading-relaxed">
                 A Escolinha de Ginástica Rítmica da Vila Céu do Mapiá é uma iniciativa do Núcleo de Esportes 
-                do Projeto AME (Apoio e Motivação Educacional). A escolinha funciona no contraturno escolar e 
-                visa oferecer às crianças formação esportiva, social e educativa, reforçando valores e oportunidades.
+                do Projeto AME (Apoio e Motivação Educacional).<br />
+                A escolinha funciona no contraturno escolar e visa oferecer às crianças formação esportiva, 
+                social e educativa, reforçando valores e oportunidades.
               </p>
             </div>
 
@@ -313,7 +316,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-700 pt-6 text-center text-sm">
-            <p>&copy; 2024 Ginástica Rítmica Céu do Mapiá - Núcleo de Esportes - Projeto AME. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Ginástica Rítmica Céu do Mapiá - Núcleo de Esportes - Projeto AME. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
