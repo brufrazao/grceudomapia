@@ -78,14 +78,49 @@ export default function Sobre() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-blue-900 mb-6">Justificativa Social</h2>
+            
+            <h3 className="text-2xl font-semibold text-blue-800 mb-4">O Contexto da Vila Céu do Mapiá</h3>
             <p className="text-lg text-gray-700 mb-4">
-              A escolinha complementa a educação formal das crianças da comunidade, oferecendo atividade 
-              esportiva que contribui para desenvolvimento físico, cognitivo e social.
+              A Vila Céu do Mapiá está localizada no coração da Floresta Nacional do Purus (FLONA), uma unidade de conservação na Amazônia. 
+              As crianças da comunidade vivem em relativo isolamento geográfico, com acesso limitado a centros urbanos e, consequentemente, 
+              a opções de atividades esportivas e culturais. Antes da criação desta escolinha, não havia praticamente nenhuma oferta 
+              estruturada de esportes para as meninas da comunidade.
+            </p>
+            
+            <h3 className="text-2xl font-semibold text-blue-800 mb-4 mt-8">O Esporte como Complemento Essencial à Educação</h3>
+            <p className="text-lg text-gray-700 mb-4">
+              Estudos científicos demonstram que a atividade física regular tem impacto direto no desempenho acadêmico das crianças. 
+              Pesquisas internacionais indicam que a prática esportiva melhora a concentração, a memória, a capacidade de resolução 
+              de problemas e a regulação emocional — habilidades fundamentais para o sucesso escolar.
+            </p>
+            <p className="text-lg text-gray-700 mb-4">
+              A ginástica rítmica, especificamente, desenvolve coordenação motora, equilíbrio, ritmo, disciplina e expressão corporal, 
+              contribuindo para o desenvolvimento cognitivo e socioemocional. Para crianças em comunidades isoladas, o acesso a esse 
+              tipo de atividade representa uma oportunidade única de desenvolvimento integral que vai além da sala de aula.
+            </p>
+            
+            <h3 className="text-2xl font-semibold text-blue-800 mb-4 mt-8">Benefícios Diretos e Indiretos no Rendimento Escolar</h3>
+            <p className="text-lg text-gray-700 mb-4">
+              <strong>Benefícios Diretos:</strong> A prática regular de atividade física aumenta o fluxo sanguíneo cerebral, 
+              estimulando a neurogênese e a plasticidade neural. Isso se traduz em melhor capacidade de atenção, memória de trabalho 
+              e velocidade de processamento de informações — competências essenciais para o aprendizado.
+            </p>
+            <p className="text-lg text-gray-700 mb-4">
+              <strong>Benefícios Indiretos:</strong> O esporte promove autoestima, senso de pertencimento, disciplina e resiliência. 
+              Crianças que praticam esportes regularmente apresentam menores índices de ansiedade e depressão, fatores que impactam 
+              negativamente o desempenho escolar. Além disso, a rotina de treinos ensina gestão de tempo, comprometimento e trabalho em equipe.
+            </p>
+            
+            <h3 className="text-2xl font-semibold text-blue-800 mb-4 mt-8">A Realidade Financeira e a Necessidade de Apoio</h3>
+            <p className="text-lg text-gray-700 mb-4">
+              Atualmente, a professora atua de forma voluntária, utilizando recursos próprios para manter as atividades. 
+              As famílias da comunidade, em sua maioria, não possuem condições financeiras para arcar com os custos de materiais, 
+              equipamentos e manutenção do projeto.
             </p>
             <p className="text-lg text-gray-700">
-              Hoje a professora atua voluntariamente e usa recursos próprios; as famílias não têm condições 
-              de arcar com todos os custos. O apoio financeiro é essencial para garantir a continuidade 
-              do projeto e ampliar o alcance.
+              O apoio financeiro é essencial não apenas para garantir a continuidade do projeto, mas para ampliá-lo, 
+              oferecendo a mais crianças da Vila Céu do Mapiá a oportunidade de desenvolver seu potencial físico, cognitivo e emocional 
+              através do esporte — um direito fundamental que, em comunidades isoladas, muitas vezes permanece inacessível.
             </p>
           </div>
         </div>
