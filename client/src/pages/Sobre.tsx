@@ -128,8 +128,11 @@ export default function Sobre() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-blue-900 mb-6">Sobre a Ginástica Rítmica</h2>
             <p className="text-lg text-gray-700 mb-6">
-              A ginástica rítmica é um esporte que combina dança, balé e elementos ginásticos com a 
-              manipulação de aparelhos em coreografias musicais.
+              A ginástica rítmica é um esporte olímpico que combina dança, balé e elementos ginásticos com a 
+              manipulação de aparelhos em coreografias musicais. Reconhecida por sua beleza artística e exigência técnica, 
+              a modalidade desenvolve simultaneamente capacidades físicas, cognitivas e expressivas. Tradicionalmente praticada 
+              por meninas a partir dos 5 anos, a ginástica rítmica proporciona uma formação completa que integra corpo, mente 
+              e emoções, sendo uma excelente opção para o desenvolvimento infantil.
             </p>
             
             <Card className="mb-8">
