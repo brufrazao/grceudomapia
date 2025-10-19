@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "wouter";
+import PartnersBar from "@/components/PartnersBar";
 
 export default function Sobre() {
   return (
@@ -10,10 +11,10 @@ export default function Sobre() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/">
             <div className="flex items-center gap-3 cursor-pointer">
-              <img src="/logo-circle-transparent.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-16 w-16" />
+              <img src="/logo-gr-lilac-hq-transparent.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-12 w-12" />
               <div>
                 <h1 className="text-2xl font-bold text-blue-900">Ginástica Rítmica -<br className="md:hidden" /> Céu do Mapiá</h1>
-                <p className="text-sm text-gray-600">Núcleo de Esportes do AME (Apoio e Motivação Educacional)</p>
+                <p className="text-sm text-gray-600">Núcleo de Esportes do AME<br />(Apoio e Motivação Educacional)</p>
               </div>
             </div>
           </Link>
@@ -196,7 +197,7 @@ export default function Sobre() {
             </p>
             
             <div className="grid md:grid-cols-2 gap-6">
-              <Card>
+              <Card className="border-2 border-[#a8d5ff]">
                 <CardHeader>
                   <CardTitle className="text-blue-900">Evolução Técnica</CardTitle>
                 </CardHeader>
@@ -207,9 +208,9 @@ export default function Sobre() {
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="border-2 border-[#d2c8eb]">
                 <CardHeader>
-                  <CardTitle className="text-purple-900">Disciplina</CardTitle>
+                  <CardTitle className="text-[#8b5cf6]">Disciplina</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700">
@@ -218,9 +219,9 @@ export default function Sobre() {
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="border-2 border-[#a8d5ff]">
                 <CardHeader>
-                  <CardTitle className="text-pink-900">União do Grupo</CardTitle>
+                  <CardTitle className="text-blue-900">União do Grupo</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700">
@@ -229,9 +230,9 @@ export default function Sobre() {
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="border-2 border-[#d2c8eb]">
                 <CardHeader>
-                  <CardTitle className="text-green-900">Criatividade</CardTitle>
+                  <CardTitle className="text-[#8b5cf6]">Criatividade</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700">
@@ -300,6 +301,9 @@ export default function Sobre() {
           </Link>
         </div>
       </section>
+
+      {/* Parceiros e Apoiadores */}
+      <PartnersBar />
 
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-300 py-8">

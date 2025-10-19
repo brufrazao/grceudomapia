@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "wouter";
+import PartnersBar from "@/components/PartnersBar";
 
 export default function Apoie() {
   return (
@@ -10,10 +11,10 @@ export default function Apoie() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/">
             <div className="flex items-center gap-4 cursor-pointer">
-              <img src="/logo-circle-transparent.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-16 w-16" />
+              <img src="/logo-gr-lilac-hq-transparent.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-12 w-12" />
               <div>
                 <h1 className="text-2xl font-bold text-blue-900">Ginástica Rítmica -<br className="md:hidden" /> Céu do Mapiá</h1>
-                <p className="text-sm text-gray-600">Núcleo de Esportes do AME (Apoio e Motivação Educacional)</p>
+                <p className="text-sm text-gray-600">Núcleo de Esportes do AME<br />(Apoio e Motivação Educacional)</p>
               </div>
             </div>
           </Link>
@@ -86,7 +87,7 @@ export default function Apoie() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center">Planos de Patrocínio Mensal</h2>
           <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12">
-            <Card className="border-2 border-blue-300 hover:border-blue-500 transition-all hover:shadow-lg">
+            <Card className="border-2 border-[#a8d5ff] hover:border-[#7ec3ff] transition-all hover:shadow-lg">
               <CardHeader>
                 <CardTitle className="text-2xl text-blue-900">R$ 10</CardTitle>
                 <CardDescription>por mês</CardDescription>
@@ -103,7 +104,7 @@ export default function Apoie() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-yellow-300 hover:border-yellow-500 transition-all hover:shadow-lg">
+            <Card className="border-2 border-[#d2c8eb] hover:border-[#c0b0e0] transition-all hover:shadow-lg">
               <CardHeader>
                 <CardTitle className="text-2xl text-blue-900">R$ 15</CardTitle>
                 <CardDescription>por mês</CardDescription>
@@ -121,7 +122,7 @@ export default function Apoie() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-blue-300 hover:border-blue-500 transition-all hover:shadow-lg">
+            <Card className="border-2 border-[#a8d5ff] hover:border-[#7ec3ff] transition-all hover:shadow-lg">
               <CardHeader>
                 <CardTitle className="text-2xl text-blue-900">R$ 20</CardTitle>
                 <CardDescription>por mês</CardDescription>
@@ -140,7 +141,7 @@ export default function Apoie() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-yellow-300 hover:border-yellow-500 transition-all hover:shadow-lg">
+            <Card className="border-2 border-[#d2c8eb] hover:border-[#c0b0e0] transition-all hover:shadow-lg">
               <CardHeader>
                 <CardTitle className="text-2xl text-blue-900">R$ 30+</CardTitle>
                 <CardDescription>por mês</CardDescription>
@@ -185,7 +186,7 @@ export default function Apoie() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center">Contrapartidas para Apoiadores</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Card className="border-2 border-blue-300">
+              <Card className="border-2 border-[#a8d5ff]">
                 <CardHeader>
                   <CardTitle className="text-blue-900">Visibilidade</CardTitle>
                 </CardHeader>
@@ -197,7 +198,7 @@ export default function Apoie() {
                 </CardContent>
               </Card>
 
-              <Card className="border-2 border-yellow-300">
+              <Card className="border-2 border-[#d2c8eb]">
                 <CardHeader>
                   <CardTitle className="text-blue-900">Acompanhamento</CardTitle>
                 </CardHeader>
@@ -209,7 +210,7 @@ export default function Apoie() {
                 </CardContent>
               </Card>
 
-              <Card className="border-2 border-blue-300">
+              <Card className="border-2 border-[#a8d5ff]">
                 <CardHeader>
                   <CardTitle className="text-blue-900">Eventos</CardTitle>
                 </CardHeader>
@@ -220,7 +221,7 @@ export default function Apoie() {
                 </CardContent>
               </Card>
 
-              <Card className="border-2 border-yellow-300">
+              <Card className="border-2 border-[#d2c8eb]">
                 <CardHeader>
                   <CardTitle className="text-blue-900">Transparência</CardTitle>
                 </CardHeader>
@@ -239,7 +240,7 @@ export default function Apoie() {
       <section className="py-16 bg-gradient-to-br from-blue-50 via-yellow-50 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center">Orçamento Detalhado (12 meses)</h2>
+            <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center">Orçamento Detalhado<br />(12 meses)</h2>
             <Card className="border-2 border-blue-300">
               <CardContent className="pt-6">
                 <div className="overflow-x-auto">
@@ -376,13 +377,23 @@ export default function Apoie() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-blue-900 mb-6">Agradecimentos</h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-gray-700 mb-6">
               Agradecimento especial à comunidade da Vila Céu do Mapiá, ao legado do Padrinho Sebastião 
               e às famílias das ginastas pelo apoio e confiança.
+            </p>
+            <p className="text-lg text-gray-700">
+              Agradecemos também aos nossos parceiros e apoiadores que tornam este projeto possível: 
+              à <strong>AME (Apoio e Motivação Educacional)</strong> pela realização do projeto, 
+              à <strong>Santa Casa de Cura</strong> pela parceria, e à <strong>Escola Estadual Cruzeiro do Céu</strong>, 
+              <strong>IDARIS</strong> e <strong>ICEFLU</strong> pelo apoio fundamental ao desenvolvimento 
+              da Ginástica Rítmica no Céu do Mapiá.
             </p>
           </div>
         </div>
       </section>
+
+      {/* Parceiros e Apoiadores */}
+      <PartnersBar />
 
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-300 py-8">

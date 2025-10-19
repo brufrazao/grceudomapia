@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "wouter";
+import PartnersBar from "@/components/PartnersBar";
 
 export default function Home() {
   return (
@@ -10,10 +11,10 @@ export default function Home() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/">
             <div className="flex items-center gap-4 cursor-pointer">
-              <img src="/logo-circle-transparent.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-16 w-16" />
+              <img src="/logo-gr-lilac-hq-transparent.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-12 w-12" />
               <div>
                 <h1 className="text-2xl font-bold text-blue-900">Ginástica Rítmica -<br className="md:hidden" /> Céu do Mapiá</h1>
-                <p className="text-sm text-gray-600">Núcleo de Esportes do AME (Apoio e Motivação Educacional)</p>
+                <p className="text-sm text-gray-600">Núcleo de Esportes do AME<br />(Apoio e Motivação Educacional)</p>
               </div>
             </div>
           </Link>
@@ -31,13 +32,13 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="mb-6">
-                <img src="/logo-circle-transparent.png" alt="Logo" className="h-24 w-24 mb-4" />
+              <div className="mb-6 flex justify-center md:justify-start">
+                <img src="/logo-gr-blue-transparent.png" alt="Logo Ginástica Rítmica Céu do Mapiá" className="h-32 w-32 mb-4" />
               </div>
-              <h2 className="text-5xl md:text-6xl font-bold text-cyan-500 mb-6">
+              <h2 className="text-5xl md:text-6xl font-bold text-blue-900 mb-6">
                 Ginástica Rítmica
               </h2>
-              <h3 className="text-3xl md:text-4xl font-semibold text-cyan-500 mb-6">
+              <h3 className="text-3xl md:text-4xl font-semibold text-blue-900 mb-6">
                 Céu do Mapiá
               </h3>
               <p className="text-xl text-gray-700 mb-4">
@@ -50,12 +51,12 @@ export default function Home() {
               </p>
               <div className="flex gap-4">
                 <Link href="/apoie">
-                  <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-lg px-8 py-6">
+                  <Button size="lg" className="bg-[#c0b0e0] hover:bg-[#b0a0d0] text-white text-lg px-8 py-6">
                     Apoie o Projeto
                   </Button>
                 </Link>
                 <Link href="/sobre">
-                  <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-cyan-500 text-cyan-600 hover:bg-cyan-50">
+                  <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-[#c0b0e0] text-[#1e3a8a] hover:bg-[#e8e0f5]">
                     Saiba Mais
                   </Button>
                 </Link>
@@ -77,10 +78,11 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-blue-900 mb-8 text-center">Sobre a<br className="md:hidden" /> Ginástica Rítmica</h2>
-            <div className="bg-gradient-to-r from-slate-50 via-blue-50 to-yellow-50 p-8 rounded-lg mb-8 border-2 border-slate-100">
+            <div className="bg-gradient-to-r from-[#e8e0f5] via-blue-50 to-yellow-50 p-8 rounded-lg mb-8 border-2 border-[#d2c8eb]">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                A ginástica rítmica é um esporte que combina dança, balé e elementos ginásticos com a 
-                manipulação de aparelhos em coreografias musicais.
+                A ginástica rítmica é um esporte olímpico que combina dança, balé e elementos ginásticos com a 
+                manipulação de aparelhos em coreografias musicais. Reconhecida por sua beleza artística e exigência técnica, 
+                a modalidade desenvolve simultaneamente capacidades físicas, cognitivas e expressivas.
               </p>
               
               <h3 className="text-2xl font-bold text-blue-900 mb-4">Aparelhos Oficiais</h3>
@@ -106,9 +108,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-blue-900 mb-12 text-center">Principais Benefícios para Crianças</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="border-2 border-blue-200 hover:border-blue-400 transition-all hover:shadow-lg">
+            <Card className="border-2 border-[#a8d5ff] hover:border-[#7ec3ff] transition-all hover:shadow-lg">
               <CardHeader>
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-[#d4ebff] rounded-full flex items-center justify-center mb-4">
                   <span className="text-3xl">🎯</span>
                 </div>
                 <CardTitle className="text-blue-900">Coordenação Motora</CardTitle>
@@ -120,12 +122,12 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-slate-200 hover:border-slate-300 transition-all hover:shadow-lg">
+            <Card className="border-2 border-[#d2c8eb] hover:border-[#c0b0e0] transition-all hover:shadow-lg">
               <CardHeader>
-                <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-[#e8e0f5] rounded-full flex items-center justify-center mb-4">
                   <span className="text-3xl">🧘</span>
                 </div>
-                <CardTitle className="text-slate-700">Postura e Flexibilidade</CardTitle>
+                <CardTitle className="text-[#1e3a8a]">Postura e Flexibilidade</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
@@ -134,9 +136,9 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-blue-200 hover:border-blue-400 transition-all hover:shadow-lg">
+            <Card className="border-2 border-[#a8d5ff] hover:border-[#7ec3ff] transition-all hover:shadow-lg">
               <CardHeader>
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-[#d4ebff] rounded-full flex items-center justify-center mb-4">
                   <span className="text-3xl">🧠</span>
                 </div>
                 <CardTitle className="text-blue-900">Concentração</CardTitle>
@@ -148,12 +150,12 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-slate-200 hover:border-slate-300 transition-all hover:shadow-lg">
+            <Card className="border-2 border-[#d2c8eb] hover:border-[#c0b0e0] transition-all hover:shadow-lg">
               <CardHeader>
-                <div className="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-[#e8e0f5] rounded-full flex items-center justify-center mb-4">
                   <span className="text-3xl">🎨</span>
                 </div>
-                <CardTitle className="text-slate-700">Criatividade</CardTitle>
+                <CardTitle className="text-[#1e3a8a]">Criatividade</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
@@ -162,9 +164,9 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-blue-200 hover:border-blue-400 transition-all hover:shadow-lg">
+            <Card className="border-2 border-[#a8d5ff] hover:border-[#7ec3ff] transition-all hover:shadow-lg">
               <CardHeader>
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-[#d4ebff] rounded-full flex items-center justify-center mb-4">
                   <span className="text-3xl">💪</span>
                 </div>
                 <CardTitle className="text-blue-900">Autoestima</CardTitle>
@@ -198,7 +200,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-blue-900 mb-8 text-center">Sobre o Projeto</h2>
-            <div className="bg-gradient-to-r from-slate-50 via-blue-50 to-yellow-50 p-8 rounded-lg mb-8 border-2 border-slate-100">
+            <div className="bg-gradient-to-r from-[#e8e0f5] via-blue-50 to-yellow-50 p-8 rounded-lg mb-8 border-2 border-[#d2c8eb]">
               <p className="text-lg text-gray-700 leading-relaxed">
                 A Escolinha de Ginástica Rítmica da Vila Céu do Mapiá é uma iniciativa do Núcleo de Esportes 
                 do Projeto AME (Apoio e Motivação Educacional).<br />
@@ -208,7 +210,7 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
-              <Card className="border-2 border-blue-300">
+              <Card className="border-2 border-[#a8d5ff]">
                 <CardHeader>
                   <CardTitle className="text-blue-900">Público-Alvo</CardTitle>
                 </CardHeader>
@@ -220,7 +222,7 @@ export default function Home() {
                 </CardContent>
               </Card>
 
-              <Card className="border-2 border-yellow-300">
+              <Card className="border-2 border-[#d2c8eb]">
                 <CardHeader>
                   <CardTitle className="text-blue-900">Cronograma</CardTitle>
                 </CardHeader>
@@ -232,7 +234,7 @@ export default function Home() {
                 </CardContent>
               </Card>
 
-              <Card className="border-2 border-blue-300">
+              <Card className="border-2 border-[#a8d5ff]">
                 <CardHeader>
                   <CardTitle className="text-blue-900">Local</CardTitle>
                 </CardHeader>
@@ -289,6 +291,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Parceiros e Apoiadores */}
+      <PartnersBar />
 
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-300 py-8">
