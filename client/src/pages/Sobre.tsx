@@ -83,15 +83,14 @@ export default function Sobre() {
             <p className="text-lg text-gray-700 mb-4">
               A Vila Céu do Mapiá está localizada no coração da Floresta Nacional do Purus (FLONA), uma unidade de conservação na Amazônia. 
               As crianças da comunidade vivem em relativo isolamento geográfico, com acesso limitado a centros urbanos e, consequentemente, 
-              a opções de atividades esportivas e culturais. Antes da criação desta escolinha, não havia praticamente nenhuma oferta 
-              estruturada de esportes para as meninas da comunidade.
+              a opções de atividades esportivas e culturais.
             </p>
             
             <h3 className="text-2xl font-semibold text-blue-800 mb-4 mt-8">O Esporte como Complemento Essencial à Educação</h3>
             <p className="text-lg text-gray-700 mb-4">
-              Estudos científicos demonstram que a atividade física regular tem impacto direto no desempenho acadêmico das crianças. 
-              Pesquisas internacionais indicam que a prática esportiva melhora a concentração, a memória, a capacidade de resolução 
-              de problemas e a regulação emocional — habilidades fundamentais para o sucesso escolar.
+              Estudos científicos demonstram que a atividade física regular tem impacto direto no desempenho escolar das crianças. 
+              Pesquisas indicam que a prática esportiva melhora a concentração, a memória, a capacidade de resolução de problemas 
+              e a regulação emocional.
             </p>
             <p className="text-lg text-gray-700 mb-4">
               A ginástica rítmica, especificamente, desenvolve coordenação motora, equilíbrio, ritmo, disciplina e expressão corporal, 
@@ -99,16 +98,13 @@ export default function Sobre() {
               tipo de atividade representa uma oportunidade única de desenvolvimento integral que vai além da sala de aula.
             </p>
             
-            <h3 className="text-2xl font-semibold text-blue-800 mb-4 mt-8">Benefícios Diretos e Indiretos no Rendimento Escolar</h3>
+            <h3 className="text-2xl font-semibold text-blue-800 mb-4 mt-8">Benefícios no Rendimento Escolar e Desenvolvimento Integral</h3>
             <p className="text-lg text-gray-700 mb-4">
-              <strong>Benefícios Diretos:</strong> A prática regular de atividade física aumenta o fluxo sanguíneo cerebral, 
-              estimulando a neurogênese e a plasticidade neural. Isso se traduz em melhor capacidade de atenção, memória de trabalho 
-              e velocidade de processamento de informações — competências essenciais para o aprendizado.
-            </p>
-            <p className="text-lg text-gray-700 mb-4">
-              <strong>Benefícios Indiretos:</strong> O esporte promove autoestima, senso de pertencimento, disciplina e resiliência. 
-              Crianças que praticam esportes regularmente apresentam menores índices de ansiedade e depressão, fatores que impactam 
-              negativamente o desempenho escolar. Além disso, a rotina de treinos ensina gestão de tempo, comprometimento e trabalho em equipe.
+              A prática regular de atividade física aumenta o fluxo sanguíneo cerebral, estimulando a neurogênese e a plasticidade neural, 
+              o que se traduz em melhor capacidade de atenção, memória de trabalho e velocidade de processamento de informações. 
+              Além disso, o esporte promove autoestima, senso de pertencimento, disciplina e resiliência. Crianças que praticam esportes 
+              regularmente apresentam menores índices de ansiedade e depressão, fatores que impactam negativamente o desempenho escolar. 
+              A rotina de treinos também ensina gestão de tempo, comprometimento e trabalho em equipe.
             </p>
             
             <h3 className="text-2xl font-semibold text-blue-800 mb-4 mt-8">A Realidade Financeira e a Necessidade de Apoio</h3>
